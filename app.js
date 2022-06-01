@@ -14,5 +14,5 @@ console.log(nameDisplay)
 nameInput.addEventListener('input', () => {
     const name = nameInput.value;
     console.log(name)
-
+nameDisplay.textContent = name;
 });
