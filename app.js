@@ -1,11 +1,11 @@
 // grab DOM elements
 
 const nameInput = document.getElementById('name-input');
-
+console.log(nameInput)
 
 
 const nameDisplay = document.getElementById('name-display');
-
+console.log(nameDisplay)
 
 // set event listeners
 // get info from user input
@@ -13,6 +13,6 @@ const nameDisplay = document.getElementById('name-display');
 // update DOM to reflect the new state
 nameInput.addEventListener('input', () => {
     const name = nameInput.value;
-    console.log(nameInput)
+    console.log(name)
 
 });
